@@ -10,13 +10,8 @@ body {
     color: #333;
 }
 
-.container {
-    width: 90%;
-    margin: 0 auto;
-}
-
 header {
-    background-color: #333;
+    background-color: #007F3F; /* Green background */
     color: white;
     padding: 20px 0;
 }
@@ -42,6 +37,10 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 section {
     padding: 50px 0;
 }
@@ -50,6 +49,7 @@ section h2 {
     text-align: center;
     font-size: 2em;
     margin-bottom: 20px;
+    color: #007F3F; /* Green for headings */
 }
 
 .project-list {
@@ -65,32 +65,36 @@ section h2 {
     width: 22%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border: 2px solid #007F3F; /* Green border for projects */
 }
 
 .project h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
+    color: #007F3F; /* Green for project titles */
 }
 
 .project p {
     margin-bottom: 10px;
+    color: #333;
 }
 
 .button {
     display: inline-block;
-    background-color: #333;
+    background-color: #007F3F; /* Green button */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1em;
 }
 
 .button:hover {
-    background-color: #555;
+    background-color: #005A2E; /* Darker green on hover */
 }
 
 footer {
-    background-color: #333;
+    background-color: #007F3F; /* Green background */
     color: white;
     padding: 20px 0;
     text-align: center;
