@@ -6,19 +6,16 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Light background for a clean look */
-    color: #333;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Default text color */
+    scroll-behavior: smooth; /* Smooth scrolling between sections */
 }
 
 header {
-    background-color: #003366; /* Navy blue background */
-    color: #FFD700; /* Gold text */
+    background-color: #FF6600; /* Orange background */
+    color: #ffffff; /* White text */
     padding: 20px 0;
-}
-
-header h1 {
     text-align: center;
-    font-size: 2.5em;
 }
 
 nav ul {
@@ -32,7 +29,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFD700; /* Gold links */
+    color: #ffffff; /* White links */
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -41,15 +38,45 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-section {
+.section {
     padding: 50px 0;
+    min-height: 100vh; /* Make each section take full screen height */
 }
 
-section h2 {
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-photo {
+    width: 300px; /* Set your horizontal photo size */
+    height: auto;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+.about-text h1 {
+    font-size: 2.5em;
+    color: #FF6600; /* Orange color for heading */
+}
+
+.about-text p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+}
+
+h2 {
     text-align: center;
     font-size: 2.2em;
     margin-bottom: 20px;
-    color: #003366; /* Navy blue for headings */
+    color: #FF6600; /* Orange color for headings */
 }
 
 .project-list {
@@ -65,13 +92,13 @@ section h2 {
     width: 22%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    border: 2px solid #003366; /* Navy blue border */
+    border: 2px solid #FF6600; /* Orange border for projects */
 }
 
 .project h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-    color: #003366; /* Navy blue for project titles */
+    color: #FF6600; /* Orange for project titles */
 }
 
 .project p {
@@ -81,7 +108,7 @@ section h2 {
 
 .button {
     display: inline-block;
-    background-color: #003366; /* Navy blue button */
+    background-color: #FF6600; /* Orange background */
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -90,17 +117,9 @@ section h2 {
 }
 
 .button:hover {
-    background-color: #001F3D; /* Darker navy blue on hover */
+    background-color: #CC5200; /* Darker orange for hover effect */
 }
 
-footer {
-    background-color: #003366; /* Navy blue background */
-    color: #FFD700; /* Gold text */
-    padding: 20px 0;
-    text-align: center;
-}
-
-/* Contact Section - Buttons with Icons */
 .contact-buttons {
     display: flex;
     justify-content: center;
@@ -112,7 +131,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #003366; /* Navy blue button */
+    background-color: #FF6600; /* Orange background for buttons */
     color: white;
     padding: 12px 25px;
     text-decoration: none;
@@ -123,7 +142,7 @@ footer {
 }
 
 .contact-buttons .button:hover {
-    background-color: #001F3D; /* Darker navy blue on hover */
+    background-color: #CC5200; /* Darker orange for hover effect */
 }
 
 .contact-buttons .button i {
@@ -132,21 +151,34 @@ footer {
 }
 
 .email-button {
-    background-color: #003366;
+    background-color: #FF6600; /* Orange color */
 }
 
 .instagram-button {
-    background-color: #C13584; /* Instagram's signature pink */
+    background-color: #C13584; /* Instagram color */
 }
 
 .instagram-button:hover {
-    background-color: #9B2D63; /* Darker Instagram pink on hover */
+    background-color: #9B2D63; /* Darker Instagram color */
+}
+
+footer {
+    background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    padding: 20px 0;
+    text-align: center;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    nav ul {
+    .about-content {
         flex-direction: column;
+        text-align: center;
+    }
+
+    .about-photo {
+        width: 80%;
+        margin-bottom: 20px;
     }
 
     .project-list {
