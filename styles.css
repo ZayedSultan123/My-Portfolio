@@ -93,6 +93,16 @@ section h2 {
     background-color: #001F3D; /* Darker navy blue on hover */
 }
 
+/* Add the new CSS for app screen images */
+.project img {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
 footer {
     background-color: #003366; /* Navy blue background */
     color: #FFD700; /* Gold text */
