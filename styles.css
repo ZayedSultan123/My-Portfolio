@@ -40,13 +40,6 @@ hr.divider {
     justify-content: center;
 }
 
-.about-photo {
-    width: 200px;
-    height: auto;
-    margin-right: 30px;
-    border-radius: 50%;
-}
-
 .about-text {
     max-width: 600px;
 }
@@ -62,12 +55,6 @@ hr.divider {
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
-}
-
-.app img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
 }
 
 .app h2 {
@@ -88,19 +75,12 @@ hr.divider {
 }
 
 .contact-button {
-    width: 50px;
-    height: 50px;
+    padding: 10px 20px;
     background-color: #2980B9; /* Blue background */
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
     transition: background-color 0.3s ease;
-}
-
-.contact-button img {
-    width: 30px;
-    height: 30px;
 }
 
 .contact-button:hover {
@@ -109,17 +89,12 @@ hr.divider {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .about-photo {
-        width: 150px;
-    }
-
     .app {
         width: 45%;
     }
 
     .contact-button {
-        width: 45px;
-        height: 45px;
+        padding: 10px 15px;
     }
 }
 
@@ -130,10 +105,6 @@ hr.divider {
 
     p {
         font-size: 1em;
-    }
-
-    .about-photo {
-        width: 120px;
     }
 
     .app {
