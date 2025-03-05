@@ -3,54 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zayed's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        <div class="container">
+            <h1>Zayed Sultan's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <!-- About Me Section -->
     <section id="about" class="section">
         <div class="container">
-            <div class="about-text">
-                <h1>About Me</h1>
-                <p>Hi, I'm Zayed, a passionate software developer and Certified Apple Developer. I love creating apps that make a difference and solving problems with code.</p>
-            </div>
+            <h2>About Me</h2>
+            <p>Hi, I'm Zayed! I am a Certified Apple Developer. Here's a bit more about me.</p>
         </div>
     </section>
 
-    <hr class="divider">
-
-    <!-- My Apps Section -->
-    <section id="apps" class="section">
+    <section id="projects" class="section">
         <div class="container">
-            <h1>My Apps</h1>
-            <div class="app-list">
-                <div class="app">
-                    <h2>App 1</h2>
-                    <p>Description of the app.</p>
+            <h2>My Projects</h2>
+            <div class="project-list">
+                <div class="project">
+                    <h3>Ecomute</h3>
+                    <p>A smart transportation app that helps users plan their commutes in a more sustainable way.</p>
+                    <a href="#" class="button">View Project</a>
                 </div>
-                <div class="app">
-                    <h2>App 2</h2>
-                    <p>Description of the app.</p>
+                <div class="project">
+                    <h3>AI Study Buddy</h3>
+                    <p>AI-powered homework assistance and a smart study planner to help students learn effectively.</p>
+                    <a href="#" class="button">View Project</a>
                 </div>
-                <!-- Add more apps as needed -->
+                <div class="project">
+                    <h3>Smart Study Planner</h3>
+                    <p>Stay organized and focused with this intelligent study planning app designed for students.</p>
+                    <a href="#" class="button">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>FocusMode</h3>
+                    <p>An app to boost productivity by helping you focus on your studies or work tasks.</p>
+                    <a href="#" class="button">View Project</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <hr class="divider">
-
-    <!-- Contact Me Section -->
     <section id="contact" class="section">
         <div class="container">
-            <h1>Contact Me</h1>
-            <p>Feel free to reach out to me via email or Instagram:</p>
-            <div class="contact-buttons">
-                <a href="mailto:zayedsultan37979@gmail.com" class="contact-button email-btn">Email</a>
-                <a href="https://instagram.com/zsultan___" class="contact-button instagram-btn">Instagram</a>
-            </div>
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or follow me on my social media platforms!</p>
+        <div class="contact-buttons">
+            <a href="mailto:zayedsultan37979@gmail.com" class="button email-button">
+                <i class="fas fa-envelope"></i> Email Me
+            </a>
+            <a href="https://www.instagram.com/zsultan___" target="_blank" class="button instagram-button">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
         </div>
+    </div>
     </section>
 
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zayed. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
