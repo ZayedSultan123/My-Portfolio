@@ -3,46 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zayed Sultan Abdulqader | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Zayed Sultan Abdulqader</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <a href="#hero">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <section id="hero" data-aos="fade-up">
-        <h1>Hi, I’m Zayed Sultan</h1>
-        <p>Developer | Designer | Creator of Cool Things</p>
-        <a href="#projects" class="btn">Explore My Work</a>
-    </section>
-    <section id="about" data-aos="fade-up">
-        <h2>About Me</h2>
-        <p>I’m a Certified Apple Developer.</p>
-    </section>
-    <section id="projects" data-aos="fade-up">
-        <h2>My Projects</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <img src="project1-thumbnail.jpg" alt="Project 1">
-                <h3>Personal Portfolio</h3>
-                <p>A sleek site built with HTML, CSS, and JS. <a href="#">Live Demo</a> | <a href="#">GitHub</a></p>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <img src="images/Portfolio Cover.png" alt="Zayed's Photo" class="about-photo">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <p>Hi, I'm Zayed, a passionate software developer. I love creating apps that make a difference and solving problems with code.</p>
             </div>
-            <!-- Add more project cards as needed -->
         </div>
     </section>
-    <section id="contact" data-aos="fade-up">
-        <h2>Contact Me</h2>
-        <p>Email me at <a href="mailto:zayedsultan37979@gmail.com">zayedsultan37979@gmail.com</a></p>
+
+    <hr class="divider">
+
+    <!-- My Apps Section -->
+    <section id="apps" class="section">
+        <div class="container">
+            <h1>My Apps</h1>
+            <div class="app-list">
+                <div class="app">
+                    <img src="images/app1.png" alt="App 1">
+                    <h2>App 1</h2>
+                    <p>Description of the app.</p>
+                </div>
+                <div class="app">
+                    <img src="images/app2.png" alt="App 2">
+                    <h2>App 2</h2>
+                    <p>Description of the app.</p>
+                </div>
+                <!-- Add more apps as needed -->
+            </div>
+        </div>
     </section>
-    <footer>
-        <p>© 2025 Zayed Sultan | <a href="https://github.com/zayedsultan123">GitHub</a> | <a href="#">LinkedIn</a></p>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="script.js"></script>
+
+    <hr class="divider">
+
+    <!-- Contact Me Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>Feel free to reach out to me via email or Instagram:</p>
+            <div class="contact-buttons">
+                <a href="mailto:zayedsultan37979@gmail.com" class="contact-button email-btn">
+                    <img src="images/email-icon.png" alt="Email">
+                </a>
+                <a href="https://instagram.com/zsultan___" class="contact-button instagram-btn">
+                    <img src="images/instagram-icon.png" alt="Instagram">
+                </a>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
