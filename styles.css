@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #003366; /* Navy blue background */
-    color: #FFD700; /* Gold text */
+    color: #f0f0f0; /* Gold text */
     padding: 20px 0;
 }
 
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #FFD700; /* Gold links */
+    color: #f0f0f0; /* Gold links */
     text-decoration: none;
     font-size: 1.2em;
 }
@@ -95,7 +95,7 @@ section h2 {
 
 footer {
     background-color: #003366; /* Navy blue background */
-    color: #FFD700; /* Gold text */
+    color: #f0f0f0; /* Gold text */
     padding: 20px 0;
     text-align: center;
 }
