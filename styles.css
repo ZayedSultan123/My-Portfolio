@@ -55,14 +55,14 @@ section h2 {
 .project-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; /* Center the projects */
 }
 
 .project {
     background-color: white;
     padding: 20px;
-    margin: 15px;
-    width: 22%;
+    margin: 15px; /* Adjust the margin to bring projects closer */
+    width: 40%; /* Adjust width to make them closer */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     border: 2px solid #003366; /* Navy blue border */
